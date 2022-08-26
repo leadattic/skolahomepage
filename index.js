@@ -7,3 +7,9 @@ function increment() {
 }
 
 
+function save(){
+    console.log('you got ' + count)
+    alert('you got ' + count)
+    count = 0
+  countEl.innerText = count
+}
