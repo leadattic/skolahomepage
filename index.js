@@ -16,7 +16,7 @@ function addtosaved(){
 saved3 = saved2
 saved2 = saved1
 saved1 = count   
-  SaveEl.innerText = 'latest resets at: ' + saved1 + '-' + saved2 + '-' + saved3   
+  SaveEl.textContent = 'latest 3resets at: ' + saved1 + '-' + saved2 + '-' + saved3   
 }
 function save() {
     // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
@@ -32,4 +32,4 @@ function reset(){
     save()
   countEl.innerText = count
 }
-  SaveEl.innerText = 'latest resets at: ' + saved1 + '-' + saved2 + '-' + saved3  
+  saveEl.textContent = 'latest 3resets at: ' + saved1 + ' - ' + saved2 + ' - ' + saved3  
