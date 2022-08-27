@@ -2,7 +2,8 @@
 
 body{
 font-family: 'terraria', 'Ubuntu', 'PT Sans', 'minecraft';
-  
+  text-align: center;
+  background-size: cover;
 }
 h2 {
     font-size: 25px;
@@ -28,4 +29,8 @@ button {
 #save-btn {
     background: darkgreen;
   color: white;
+}
+#oldVersionLink {
+font-style:italic ;
+  
 }
