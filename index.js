@@ -16,7 +16,7 @@ function addtosaved(){
 saved3 = saved2
 saved2 = saved1
 saved1 = count   
-  SaveEl.textContent = 'latest 3resets at: ' + saved1 + '-' + saved2 + '-' + saved3   
+  SaveEl.textContent = 'latest 3 resets at: ' + saved1 + '-' + saved2 + '-' + saved3   
 }
 function save() {
     // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
@@ -32,4 +32,23 @@ function reset(){
     save()
   countEl.innerText = count
 }
-  saveEl.textContent = 'latest 3resets at: ' + saved1 + ' - ' + saved2 + ' - ' + saved3  
+  saveEl.textContent = 'latest 3 resets at: ' + saved1 + ' - ' + saved2 + ' - ' + saved3  
+
+
+
+
+let firstCard = Math.floor(Math.random() * 10) + 2;
+let secondCard = Math.floor(Math.random() * 10) + 2;
+let sum = firstCard + secondCard;
+let gamleBtn = document.getElementById('gamble-btn');
+console.log('First card:' + firstCard);
+console.log('Second card:' + secondCard);
+console.log(sum);
+
+
+function gamble(){
+ firstCard = Math.floor(Math.random() * 10) + 2;
+ secondCard = Math.floor(Math.random() * 10) + 2;
+ sum = firstCard + secondCard;
+gambleBtn.innerText = sum;
+}

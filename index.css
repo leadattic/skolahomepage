@@ -1,8 +1,11 @@
 
 
-
+body{
+font-family: 'terraria', 'Ubuntu', 'PT Sans', 'minecraft';
+  
+}
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -11,7 +14,6 @@ button {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
     font-weight: bold;
     width: 200px;
     margin-bottom: 5px;
@@ -20,8 +22,10 @@ button {
 
 #increment-btn {
     background: #00ff1e;
+  color: white;
 }
 
 #save-btn {
     background: darkgreen;
+  color: white;
 }
