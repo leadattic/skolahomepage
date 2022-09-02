@@ -1,9 +1,10 @@
 
 
 body{
-font-family: 'terraria', 'Ubuntu', 'PT Sans', 'minecraft';
+font-family: 'terraria', 'Ubuntu', 'consolas', 'PT Sans', 'minecraft';
   text-align: center;
   background-size: cover;
+  color: #000305;
 }
 h2 {
     font-size: 25px;
