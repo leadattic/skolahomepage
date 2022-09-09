@@ -2,7 +2,7 @@ let countEl = document.getElementById("count-el")
 let count = 0
 let SaveEl = document.getElementById('save-el')
 function increment() {
-    count = count + 1
+    count += 1
     countEl.innerText = count
 }
 
@@ -52,3 +52,14 @@ function gamble(){
  sum = firstCard + secondCard;
 gambleBtn.innerText = sum;
 }
+
+
+
+ 
+
+
+
+
+
+
+
