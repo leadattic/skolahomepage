@@ -19,9 +19,6 @@ saved1 = count
   SaveEl.textContent = 'latest 3 resets at: ' + saved1 + '-' + saved2 + '-' + saved3   
 }
 function save() {
-    // 2. Create a variable that contains both the count and the dash separator, i.e. "12 - "
-    // 3. Render the variable in the saveEl using innerText
-    // NB: Make sure to not delete the existing content of the paragraph
     console.log(count)
     addtosaved()
     count = 0

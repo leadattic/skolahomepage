@@ -1,0 +1,20 @@
+- LANG EN/SE
+- BUTTONS 
+- TOGGLE BUTTONS 
+- FONT-SIZE
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
