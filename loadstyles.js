@@ -2,15 +2,15 @@
 // btnstyle, 1=btns 2=text 3=icon
 
 const allTheHtml = document.getElementById('html')
-if (localStorage.getItem('lang')){}else{localStorage.setItem('lang', 1)}
-if (localStorage.getItem('style')){}else{localStorage.setItem('style', 2)}
+if (localStorage.getItem('lang')) { } else { localStorage.setItem('lang', 1) }
+if (localStorage.getItem('style')) { } else { localStorage.setItem('style', 2) }
 
 let lang = localStorage.getItem('lang')
 let btnStyle = localStorage.getItem('style')
 
 render()
-function render(){
-  if(lang === '1' && btnStyle === '2'){
+function render() {
+  if (lang === '1' && btnStyle === '2') {
     allTheHtml.innerHTML = `<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -57,7 +57,7 @@ function render(){
         <hr>
         <a href="help.html" target="blank_">
           <small>Help / support</a> Credits: leadattic_ och Power_Utter <a href=changelogs.html target="blank_">
-          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.1000001, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
+          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.2, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
           href=old.html target=blank_><p id='oldVersionLink'>Do you want an older version?</p></a> </small>
         </h4>
         <!--<script src="alert.js"> </script> remove comment thingies if you want to execute it :)-->
@@ -73,7 +73,7 @@ function render(){
 
   <!-- Load our React component. -->
 </body>`
-  }else if(lang === '2' && btnStyle === '2'){
+  } else if (lang === '2' && btnStyle === '2') {
     allTheHtml.innerHTML = `<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -82,7 +82,7 @@ function render(){
 </head>
 
 <body background="placeholder.png" id='body'>
-  This should be in engish but its not :( wanna go back to svenska? <button onclick='change("lang", 1)'>ok</button><br>
+  This should be in engish but its not :( wanna go back to svenska? <button onclick='change("lang", 1)'>yea</button><br>
   <small>psst, you might have to reload the page
   <h2>
     <a href=testhref.html><big>
@@ -121,7 +121,7 @@ function render(){
         <hr>
         <a href="help.html" target="blank_">
           <small>Help / support</a> Credits: leadattic_ och Power_Utter <a href=changelogs.html target="blank_">
-          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.1000001, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
+          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.2, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
           href=old.html target=blank_><p id='oldVersionLink'>Do you want an older version?</p></a> </small>
         </h4>
         <!--<script src="alert.js"> </script> remove comment thingies if you want to execute it :)-->
@@ -137,12 +137,12 @@ function render(){
 
   <!-- Load our React component. -->
 </body>`}
-  
+
 }
-function change(whatToChange, id){
-if(whatToChange === 'lang'){
-  if(id){localStorage.setItem('lang', id)}
-}else if (whatToChange === 'btnstyle'){if(id){localStorage.setItem('style', id)}}
+function change(whatToChange, id) {
+  if (whatToChange === 'lang') {
+    if (id) { localStorage.setItem('lang', id) }
+  } else if (whatToChange === 'btnstyle') { if (id) { localStorage.setItem('style', id) } }
   lang = localStorage.getItem('lang')
   btnStyle = localStorage.getItem('style')
   render()
