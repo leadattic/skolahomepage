@@ -15,8 +15,6 @@ function render(){
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Skolahomepage</title>
-  <script charset="UTF-8" src="//web.webpushs.com/js/push/c375a6ac93b202750fe999ed133087d8_1.js" async></script>
-  <script charset="UTF-8" src="//web.webpushs.com/js/push/c375a6ac93b202750fe999ed133087d8_1.js" async></script>
 <link rel="stylesheet" href="index.css">
 </head>
 
@@ -80,8 +78,6 @@ function render(){
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Skolahomepage</title>
-  <script charset="UTF-8" src="//web.webpushs.com/js/push/c375a6ac93b202750fe999ed133087d8_1.js" async></script>
-  <script charset="UTF-8" src="//web.webpushs.com/js/push/c375a6ac93b202750fe999ed133087d8_1.js" async></script>
 <link rel="stylesheet" href="index.css">
 </head>
 
