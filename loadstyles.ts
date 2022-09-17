@@ -2,8 +2,8 @@
 // btnstyle, 1=btns 2=text 3=icon
 
 const allTheHtml = document.getElementById('html')
-if (localStorage.getItem('lang')) { } else { localStorage.setItem('lang', 1) }
-if (localStorage.getItem('style')) { } else { localStorage.setItem('style', 2) }
+if (localStorage.getItem('lang')) { } else { localStorage.setItem('lang', '1') }
+if (localStorage.getItem('style')) { } else { localStorage.setItem('style', '2') }
 
 let lang = localStorage.getItem('lang')
 let btnStyle = localStorage.getItem('style')
@@ -57,7 +57,7 @@ function render() {
         <hr>
         <a href="help.html" target="blank_">
           <small>Help / support</a> Credits: leadattic_ och Power_Utter <a href=changelogs.html target="blank_">
-          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.3, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
+          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.31, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
           href=old.html target=blank_><p id='oldVersionLink'>Do you want an older version?</p></a> </small>
         </h4>
         <!--<script src="alert.js"> </script> remove comment thingies if you want to execute it :)-->
@@ -121,7 +121,7 @@ function render() {
         <hr>
         <a href="help.html" target="blank_">
           <small>Help / support</a> Credits: leadattic_ och Power_Utter <a href=changelogs.html target="blank_">
-          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.3, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
+          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.31, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
           href=old.html target=blank_><p id='oldVersionLink'>Do you want an older version?</p></a> </small>
         </h4>
         <!--<script src="alert.js"> </script> remove comment thingies if you want to execute it :)-->
