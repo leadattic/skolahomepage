@@ -57,16 +57,16 @@ function render() {
         <hr>
         <a href="help.html" target="blank_">
           <small>Help / support</a> Credits: leadattic_ och Power_Utter <a href=changelogs.html target="blank_">
-          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.2, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
+          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.3, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
           href=old.html target=blank_><p id='oldVersionLink'>Do you want an older version?</p></a> </small>
         </h4>
         <!--<script src="alert.js"> </script> remove comment thingies if you want to execute it :)-->
-        <h4>Click to increase:</h4>
+     <!--   <h4>Click to increase:</h4>
         <h2 id="count-el">0</h2>
         <button id="increment-btn" onclick="increment()">Increase</button>
 <button id="save-btn" onclick="reset()">Reset</button>
-            <p id='save-el'></p>
-        <script src="index.js"></script>
+            <p id='save-el'></p>-->
+        <script src="index.ts"></script>
         </footer>
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
@@ -121,16 +121,16 @@ function render() {
         <hr>
         <a href="help.html" target="blank_">
           <small>Help / support</a> Credits: leadattic_ och Power_Utter <a href=changelogs.html target="blank_">
-          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.2, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
+          Changelogs</a> DISCLAIMER: still under development<p>current version: v.0.10.3, <a href="https://github.com/leadattic/skolahomepage"> Source Code</a></p> <a
           href=old.html target=blank_><p id='oldVersionLink'>Do you want an older version?</p></a> </small>
         </h4>
         <!--<script src="alert.js"> </script> remove comment thingies if you want to execute it :)-->
-        <h4>Click to increase:</h4>
+     <!--    <h4>Click to increase:</h4>
         <h2 id="count-el">0</h2>
         <button id="increment-btn" onclick="increment()">Increase</button>
 <button id="save-btn" onclick="reset()">Reset</button>
-            <p id='save-el'></p>
-        <script src="index.js"></script>
+            <p id='save-el'></p> -->
+        <script src="index.ts"></script>
         </footer>
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
